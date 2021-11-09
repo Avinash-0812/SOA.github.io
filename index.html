@@ -19,7 +19,7 @@
     <section class="header">
         <nav>
             <a href="index.html"><img src="Images/logo.png"></a>
-            <div class="navlinks">
+            <div id="navlinks">
                 <i class="fa fa-times" onclick="hideMenu()"></i>
                 <ul>
                     <li><a href="index.html">HOME</a></li>
@@ -250,6 +250,24 @@
             navlinks.style.right = "-200px";
         }
     </script>
+
+    <!-- <script>
+        /* When the user clicks on the button,
+toggle between hiding and showing the dropdown content */
+function myFunction() {
+  document.getElementById("navlinks").classList.toggle("show");
+}
+
+// Close the dropdown menu if the user clicks outside of it
+window.onclick = function(event) {
+  if (!event.target.matches('.dropbtn')) {
+    var dropdowns = document.getElementsByClassName("dropdown-content");
+    var i;
+    for (i = 0; i < dropdowns.length; i++) {
+      var openDropdown = dropdowns[i];
+    
+
+    </script> -->
 
 </body>
 

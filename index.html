@@ -19,7 +19,7 @@
     <section class="header">
         <nav>
             <a href="index.html"><img src="Images/logo.png"></a>
-            <div class="navlinks">
+            <div class="navlinks" id="navLinks">
                 <i class="fa fa-times" onclick="hideMenu()"></i>
                 <ul>
                     <li><a href="index.html">HOME</a></li>
@@ -245,7 +245,7 @@
     <!-------------------------JavaScript for Toggle---->
 
     <script>
-        var navlinks = document.getElementById("navlinks");
+        var navlinks = document.getElementById("navLinks");
 
         function showMenu() {
             navlinks.style.right = "0";
